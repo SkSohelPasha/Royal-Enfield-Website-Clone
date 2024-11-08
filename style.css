@@ -1,0 +1,511 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+    box-sizing: border-box;
+}
+body{
+    background-color: #212529;
+}
+.nav-re{
+    background-color:black;
+    height:80px ;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo{
+    height: 100px;
+    width: 100px;
+    align-items: center;
+}
+
+.re-logo{
+    background-image: url("Royal-Enfield.jpg");
+    height: 90px;
+    width: 200px;
+    background-size: cover;
+    
+}
+
+.nav-panel1 p{
+ display: inline;
+ margin-left: 15px;
+ font-weight: bold;
+ cursor: pointer;
+ color: #fff;
+}
+
+.nav-panel1 p:hover{
+    color: rgba(224, 6, 6, 0.901);
+}
+
+.nav-panel2 {
+ margin-left: 15px;
+ font-weight: bold;
+ cursor: pointer; 
+ display: flex;
+ text-align: right;
+ margin-left: 20%;
+ color: #fff;
+}
+.nav-panel2 p:hover{
+    color: rgba(167, 1, 1, 0.866);
+    color: #fff;
+}
+
+i{
+    margin-left: 1rem;
+    font-size: 1.3rem;
+}
+
+img{
+    font-size: 25px;
+    max-width: 2rem;
+    margin-left: 1rem;
+}
+
+
+.hero1-section{
+    background-image: url("hero1.webp");
+    height: 600px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: slides 15s linear infinite;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+
+@keyframes slides{
+    0%{
+        background-image: url("hero1.webp");
+    }
+    25%{
+        background-image: url("hero2.jpg");
+    }
+    50%{
+        background-image: url("hero3.avif");
+    }
+    75%{
+        background-image: url("hero4.avif");
+    }
+    100%{
+        background-image: url("hero5.avif");
+    }
+}
+
+.hero1-msg{
+    margin-top: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.KN{
+    background-color: #fff;
+    padding: 0.65rem;
+    border-radius: 5px;
+}
+.Rg{
+    background-color: #fff;
+    padding: 0.65rem;
+    margin-left: 1rem;
+    border-radius: 5px;
+}
+
+.KN:hover{
+    background-color:rgba(167, 1, 1, 0.866); 
+    color: #fff;
+}
+.Rg:hover{
+    background-color:rgba(167, 1, 1, 0.866); 
+    color: #fff;
+}
+
+h2{
+    text-align: center;
+    padding: 1rem;
+}
+
+.model-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+.box1-img{
+    height: 245px;
+    width: 400px;
+    background-size:cover;
+    transition-property:all ;
+    transition-duration: 1s;
+    transition-timing-function: steps();
+}
+ 
+.p1{
+    margin-top: 55%;
+    color: #fff;
+    font-weight: bold;
+}
+
+.box2-img{
+    height: 245px;
+    width: 400px;
+    background-size:cover;
+    transition-property:all ;
+    transition-duration: 1s;
+    transition-timing-function: steps();
+}
+ 
+.p2{
+    margin-top: 55%;
+    color: #fff;
+    font-weight: bold;
+}
+
+.box3-img{
+    height: 245px;
+    width: 400px;
+    background-size:cover;
+    transition-property:all ;
+    transition-duration: 1s;
+    transition-timing-function: steps();
+    
+}
+ 
+.p3{
+    margin-top: 55%;
+    color: #fff;
+    font-weight: bold;
+}
+
+.box4-img{
+    height: 245px;
+    width: 400px;
+    background-size:cover;
+    transition-property:all ;
+    transition-duration: 1s;
+    transition-timing-function: steps();
+    
+}
+ 
+.p4{
+    margin-top: 55%;
+    color: #fff;
+    font-weight: bold;
+}
+
+.box1-img:hover{
+    scale: 1.1;
+}
+.box2-img:hover{
+    scale: 1.1;
+}
+.box3-img:hover{
+    scale: 1.1;
+}
+.box4-img:hover{
+    scale: 1.1;
+}
+
+.line1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+.motor{
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.line1 p{
+    color: #fff;
+}
+
+p:hover{
+   color:  rgba(224, 6, 6, 0.901); 
+   color: #fff;
+}
+
+.Hero1{
+    background-image: url("Hero1.avif");
+    height: 600px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.exp{
+    background-color: #fff;
+    padding: 0.65rem;
+    margin-top: 2rem;
+    border-radius: 5px;
+}
+
+.exp:hover{
+    background-color:  rgba(224, 6, 6, 0.901); 
+    color: #fff;
+}
+
+.line2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+.line2 p{
+    color: #fff;
+}
+
+p:hover{
+   color:  rgba(224, 6, 6, 0.901); 
+
+}
+
+.motoverse{
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.Hero2{
+    background-image: url("Hero2.avif");
+    height: 600px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.Dn{
+    border: 1px solid #fff;
+    padding: 0.65rem;
+    color: #fff;
+    font-weight: normal;
+    margin-top: 30%;
+}
+.line3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.Apparel{
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.line3 p{
+    color: #fff;
+}
+p:hover{
+    color:  rgba(224, 6, 6, 0.901); 
+ }
+
+
+.Hero3{
+    background-image: url("Hero.4.avif");
+    height: 600px;
+    width: 100%;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.line4{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+.Accessories{
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.line4 p{
+    color: #fff;
+}
+p:hover{
+    color:  rgba(224, 6, 6, 0.901); 
+ }
+
+
+.Hero4{
+    background-image: url("Hero.3.avif");
+    height: 600px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+.line5{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem;
+}
+.Locate{
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.line5 p{
+    color: #fff;
+}
+p:hover{
+    color:  rgba(224, 6, 6, 0.901); 
+ }
+
+
+.Hero5{
+    background-image: url("Hero.5.avif");
+    height: 600px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+
+.Hero5 h2{
+    color: #fff;
+    margin-right: 65%;
+}
+
+.Hero5  p{
+    color: #000000;
+}
+
+h2:hover{
+    color: rgba(224, 6, 6, 0.901);
+}
+
+.icon2{
+  padding: 3rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-bottom: 1px solid #fff;
+}
+.bike i{
+  font-size: 4rem;
+  color: #fff;
+}
+.bike p{
+    color: #fff;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.bike p:hover{
+    color:rgba(224, 6, 6, 0.901) ;
+}
+.location i{
+    font-size: 4rem;
+    color: #fff;
+  }
+  .location p{
+      color: #fff;
+      margin-top: 15px;
+      margin-left: 15px;
+  }
+  .location p:hover{
+      color:rgba(224, 6, 6, 0.901) ;
+  }
+
+  .tools i{
+    font-size: 4rem;
+    color: #fff;
+  }
+  .tools p{
+      color: #fff;
+      margin-top: 15px;
+      margin-left: 15px;
+  }
+  .tools p:hover{
+      color:rgba(224, 6, 6, 0.901) ;
+  }
+
+  .convs{
+    color:#000000;
+    display: flex;
+    padding: 2rem;
+    background-color: #fff;
+    border-bottom: 0.01px solid black;
+  }
+
+  .icon3{
+    display: flex;
+  }
+
+  .icon3:hover{
+    color: rgba(224, 6, 6, 0.901);
+  }
+  .foot-panel1{
+   background-color: #FAF6F0;
+   display: flex;
+   justify-content: space-around;
+   height: 470px;
+   border-bottom: 0.01px solid #000000;
+  }
+  ul{
+    margin-top: 30px;
+  }
+  ul a{
+    display: block;
+    font-size: 0.65rem;
+    margin-top: 5px;
+    color: #000000;
+    font-size: small;
+    font-weight: bold;
+    padding: 0.35rem;
+   }
+
+   ul a:hover{
+    color: rgba(224, 6, 6, 0.901) ;
+   }
+
+   .foot-panel2{
+    background-color: #FAF6F0;
+    padding: 1.5rem;
+    font-size: 0.65rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   }
+
+   .foot-panel2  h4:hover{
+    color:  rgba(224, 6, 6, 0.901) ;
+   }
+
+   .logo-re{
+    height: 60px;
+    width: 75px;
+    position: fixed;
+    top: 90%;
+    left: 95%;
+    border-radius: 50%;
+    background-size: cover;
+    background-image: url("logo-re.png");
+   }
+
+ 
